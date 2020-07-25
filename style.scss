@@ -47,20 +47,49 @@ h6 {
   margin: 0 0 20px 0;
 }
 
+.header-resume {
+  left: 0;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
+  background: #ff2143;
+  border-bottom: 1px solid #fff;
+  z-index: 20;
+  .h2-heading {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.4em;
+  }
+}
+
+.h2-heading {
+  font-family: "Hoefler Text", Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 1.75em;
+  letter-spacing: 0.2em;
+  line-height: 1.1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.main-header .main-menu ul li a::before {
+  content: "";
+  width: 1px;
+  height: 14px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .container-lg-markdown {
   max-width: 1024px;
   margin: 0 auto;
-
-  .h2-heading {
-    font-family: "Hoefler Text", Georgia, "Times New Roman", serif;
-    font-weight: normal;
-    font-size: 1.75em;
-    letter-spacing: 0.2em;
-    line-height: 1.1em;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-  }
 
   .grey-span {
     -webkit-opacity: 0.4;
@@ -69,6 +98,11 @@ h6 {
     -ms-filter: alpha(opacity=40);
     filter: alpha(opacity=40);
     font-size: 20px;
+  }
+
+  .main-info_img {
+    max-width: 90%;
+    height: auto;
   }
 
   .content-section .bordered {

@@ -47,12 +47,28 @@ h6 {
   margin: 0 0 20px 0;
 }
 
-.container-lg-markdown {
-  max-width: 1024px;
-  margin: 0 auto;
+.header-resume {
+  left: 0;
+  margin: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
+  background: #ff2143;
+  border-bottom: 1px solid #fff;
+  z-index: 20;
 }
 
-.container-lg-markdown .h2-heading {
+.header-resume .h2-heading {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 0.4em;
+}
+
+.h2-heading {
   font-family: "Hoefler Text", Georgia, "Times New Roman", serif;
   font-weight: normal;
   font-size: 1.75em;
@@ -63,6 +79,23 @@ h6 {
   margin: 0 auto;
 }
 
+.main-header .main-menu ul li a::before {
+  content: "";
+  width: 1px;
+  height: 14px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.container-lg-markdown {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .container-lg-markdown .grey-span {
   -webkit-opacity: 0.4;
   -moz-opacity: 0.4;
@@ -70,6 +103,11 @@ h6 {
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
   font-size: 20px;
+}
+
+.container-lg-markdown .main-info_img {
+  max-width: 90%;
+  height: auto;
 }
 
 .container-lg-markdown .content-section .bordered {
