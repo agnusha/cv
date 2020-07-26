@@ -1,3 +1,5 @@
+$red-color: #ff2143;
+
 html,
 body,
 div {
@@ -54,7 +56,7 @@ h6 {
   top: 0;
   width: 100%;
   box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
-  background: #ff2143;
+  background: $red-color;
   border-bottom: 1px solid #fff;
   z-index: 20;
   .h2-heading {
@@ -74,6 +76,7 @@ h6 {
   text-align: center;
   text-transform: uppercase;
   margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .main-header .main-menu ul li a::before {
@@ -100,13 +103,33 @@ h6 {
     font-size: 20px;
   }
 
-  .main-info_img {
-    max-width: 90%;
-    height: auto;
+  .main-info {
+    .main-info_p {
+      color: grey;
+      font-style: italic;
+
+      b {
+        font-style: normal;
+        padding-right: 7px;
+        color: black;
+      }
+      a {
+        color: grey;
+
+        &:hover {
+          text-decoration: none;
+          color: $red-color;
+        }
+      }
+    }
+    .main-info_img {
+      max-width: 90%;
+      height: auto;
+    }
   }
 
   .content-section .bordered {
-    border: 2px solid #e68545;
+    border: 2px solid $red-color;
     -moz-box-shadow: 0 0 0 5px #f2f3f7;
     -webkit-box-shadow: 0 0 0 5px #f2f3f7;
     box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -174,13 +197,13 @@ h6 {
     }
 
     &.color-2 {
-      border-bottom: 2px solid #ec5453;
+      border-bottom: 2px solid $red-color;
 
       .services-icons {
-        background: #ec5453;
+        background: $red-color;
 
         &:before {
-          border-color: transparent transparent #ec5453 transparent;
+          border-color: transparent transparent $red-color transparent;
         }
         &:after {
           border-color: #ec5453 transparent transparent transparent;

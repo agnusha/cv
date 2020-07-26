@@ -77,6 +77,7 @@ h6 {
   text-align: center;
   text-transform: uppercase;
   margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .main-header .main-menu ul li a::before {
@@ -105,13 +106,33 @@ h6 {
   font-size: 20px;
 }
 
-.container-lg-markdown .main-info_img {
+.container-lg-markdown .main-info .main-info_p {
+  color: grey;
+  font-style: italic;
+}
+
+.container-lg-markdown .main-info .main-info_p b {
+  font-style: normal;
+  padding-right: 7px;
+  color: black;
+}
+
+.container-lg-markdown .main-info .main-info_p a {
+  color: grey;
+}
+
+.container-lg-markdown .main-info .main-info_p a:hover {
+  text-decoration: none;
+  color: #ff2143;
+}
+
+.container-lg-markdown .main-info .main-info_img {
   max-width: 90%;
   height: auto;
 }
 
 .container-lg-markdown .content-section .bordered {
-  border: 2px solid #e68545;
+  border: 2px solid #ff2143;
   -webkit-box-shadow: 0 0 0 5px #f2f3f7;
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
 }
@@ -178,15 +199,15 @@ h6 {
 }
 
 .container-lg-markdown .services.color-2 {
-  border-bottom: 2px solid #ec5453;
+  border-bottom: 2px solid #ff2143;
 }
 
 .container-lg-markdown .services.color-2 .services-icons {
-  background: #ec5453;
+  background: #ff2143;
 }
 
 .container-lg-markdown .services.color-2 .services-icons:before {
-  border-color: transparent transparent #ec5453 transparent;
+  border-color: transparent transparent #ff2143 transparent;
 }
 
 .container-lg-markdown .services.color-2 .services-icons:after {
