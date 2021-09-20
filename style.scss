@@ -206,7 +206,7 @@ h6 {
           border-color: transparent transparent $red-color transparent;
         }
         &:after {
-          border-color: #ec5453 transparent transparent transparent;
+          border-color: $red-color transparent transparent transparent;
         }
       }
     }
