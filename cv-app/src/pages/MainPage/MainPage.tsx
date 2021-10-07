@@ -7,7 +7,6 @@ const MainPage: React.FC = () => {
         <div className="row">
           <div className="col-md-3 d-flex align-items-center mb-3">
             <img
-              src="/assets/photo.jpg"
               alt="agnia"
               className="rounded-pill d-flex m-auto main-info_img"
             />
