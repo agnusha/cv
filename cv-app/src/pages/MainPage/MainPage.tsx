@@ -55,7 +55,7 @@ const MainPage: React.FC = () => {
         </div>
       </section>
       <main>
-        <section className="content-section my-5">
+        <section className="content-section skills-section my-5">
           <h2 className="h2-heading">Skills</h2>
           <div className="row p-4 m-3 justify-content-around">
             <div className="col-md-6 col-lg-4 text-center">
