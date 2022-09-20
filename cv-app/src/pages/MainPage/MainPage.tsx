@@ -39,11 +39,21 @@ const MainPage: React.FC = () => {
               (AWS/Azure) experience.
             </p>
             <p>
-              Developed the Waiver and Admin UI portal, APIs, Waiver's crawlers
-              for BCD Travel, the Web data portal, Download tool and CLI for
-              John Hopkins Institute with Microsoft, automated lease accounting
-              system, CRM, web application for drawing up requests for goods
-              labeling services, online tobacco shop.
+              I am a .NET developer having 3+ years of commercial development
+              experience. This experience includes API and website creation,
+              database experience. Skilled in ASP.NET MVC, ASP.NET Core,
+              client-side web development with React, and AWS/Azure
+              technologies. Developed the Waiver and Admin UI portal, APIs,
+              Waiver's crawlers for BCD Travel, the Web data portal, Download
+              tool and CLI for John Hopkins Institute with Microsoft, automated
+              lease accounting system, CRM, web application for drawing up
+              requests for goods labeling services, online tobacco shop. Good
+              team player, who has high responsibility level. Can be
+              self-dependent, but also have experience of supervising others.
+              Very collaborative and innovative. Confident and patient worker
+              with a positive attitude Can work overtime to meet deadlines.
+              Eager to learn new skills and techniques to improve my efficiency
+              at the workplace.
             </p>
             <p>
               Good team player, who has high responsibility level. Can be
