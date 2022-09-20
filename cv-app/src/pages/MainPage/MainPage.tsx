@@ -18,17 +18,15 @@ const MainPage: React.FC = () => {
               <a href="mailto:agniastar@outlook.com">agniastar@outlook.com</a>
               <br />
               <b>Phone</b>
-              <a href="tel:+375293194896"> +375-29-319-48-96 </a> <br />
+              <a href="tel:+48500711782">+48-500-711-782 </a>&nbsp;
+              <a href="tel:+375293194896">+375-29-319-48-96 </a> <br />
               <b>Linkedin</b>
-              <a href="https://www.linkedin.com/in/агния-старовойтова-392263169">
+              <a href="https://www.linkedin.com/in/agnia-starovoitava-392263169/">
                 Link
               </a>
               <br />
               <b>English level</b>
               Upper-intermediate
-              <br />
-              <b>Family status</b>
-              Single
               <br />
               <br />
             </p>
