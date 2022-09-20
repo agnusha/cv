@@ -149,34 +149,99 @@ const MainPage: React.FC = () => {
               Key developer on BCDT-API
               <span className="grey-span">Feb-2021 - Till Now</span>
             </h3>
-            <p>BSUIR Minsk College of Radio Engineering</p>
+            <div>
+              <b>Customer:</b> BCD Travel
+            </div>
+            <div>
+              <b>Project:</b> BCD Travel AWS BCD API to improve travel data
+              ingest and introduce API as a product.
+            </div>
+            <div>
+              <b>Technologies:</b> .NET Core, React, Typescript, AWSSDK and
+              other official Amazon libraries, xunit, jest, Moq, AutoFixture,
+              StyleCop.Analyzers, Serilog.
+            </div>
+            <div>
+              <b>Database:</b> AWS DynamoDB, PostgreSQL, MongoDB.
+            </div>
+            <div>
+              <div>
+                <b>Responsibilities:</b> Implement features for 3 different
+                streams: Waiver, Admin UI, Flight Alert.
+              </div>
+              <div>
+                Tasks include work with:
+                <ol>
+                  <li>
+                    React+TS applications for Admin UI portal and Waiver portal;
+                  </li>
+                  <li>C# API for portals on AWS lambdas;</li>
+                  <li>
+                    React+TS applications for Admin UI portal and Waiver portal;
+                  </li>
+                  <li>
+                    Different microservices for Flight Alert, which use SQN,
+                    SQS, etc;
+                  </li>
+                  <li>TS Crawlers on AWS lambdas.</li>
+                </ol>
+                Also use AWS services like ElasticSearch, Cognito for
+                authorization, S3 for saving UI attachments, Amplify library for
+                UI projects, IAM, CloudWatch, Systems Manager.
+              </div>
+            </div>
           </div>
           <div className="block-roles-blue block-bordered">
             <h3>
-              Higher incomplete education (extramural)
-              <span className="grey-span">2019 - 2022</span>
+              Developer on MSC-ALS
+              <span className="grey-span">Oct-2020 - Jan-2021</span>
             </h3>
-            <p>
-              Belarusian State University of Informatics and Radioelectronics
-            </p>
+            <div>
+              <b>Customer:</b> Microsoft Corp
+            </div>
+            <div>
+              <b>Project:</b> The goal of the project is to provide search and
+              access to data on the decoded human genome. The project has three
+              main components: Web data portal - search by metadata and work
+              with users, Admin portal - configuration and administration,
+              Download tool - cross platform solution for working with
+              downloading large amounts of data, considering the specifics of
+              working with the human genome.
+            </div>
+            <div>
+              <b>Technologies:</b> .NET Core, React, Typescript, Azure Cognitive
+              Search Azure App Service Azure Functions Azure B2C Azure Service
+              Bus Azure AppInsights .Net Core Blazor React JS Electron (this is
+              a chromium-embedded framework that allows you to run a desktop
+              application using Frontend approaches and principles) Highcharts
+              Material-UI library (UI components).
+            </div>
+            <div>
+              <b>Database:</b> Sqlite, Azure Storage Account.
+            </div>
+            <div>
+              <div>
+                <b>Responsibilities:</b>
+                <ol>
+                  <li>Implementation of REST API for Web data portal;</li>
+                  <li>
+                    Developing the authorization on Azure B2C with authorization
+                    code flow;
+                  </li>
+                  <li>
+                    Developing the solutions for the Download tool and CLI
+                    application according to business requirements.
+                  </li>
+                </ol>
+              </div>
+            </div>
           </div>
           <p>
-            <em>Specialty</em>: Information Technology Software
+            <em>Other projects</em>: automated lease accounting system, CRM, web
+            application for drawing up requests for goods labeling services,
+            online tobacco shop.
           </p>
         </section>
-
-        {/* <section className="content-section my-5">
-      <h2 className="h2-heading">Projects</h2>
-      <div className="block-code-picture">
-        <div className="row mx-0 py-md-5 py-xs-1">
-          <div className="col-12 text-center block-code-picture-text">
-            <p>
-              <a href="#">Here will be link to presentation</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>  */}
 
         <section className="content-section my-5">
           <h2 className="h2-heading">Experience</h2>
