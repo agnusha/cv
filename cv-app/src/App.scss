@@ -338,13 +338,20 @@ h6 {
     }
   }
 
-  .block-education-orange {
+  .block-bordered {
     padding: 1.25rem;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     border: 3px solid #eee;
     border-left-width: 0.25rem;
     border-radius: 0.25rem;
+  }
+
+  .block-roles-blue {
+    border-left-color: #2c98f0;
+  }
+
+  .block-education-orange {
     border-left-color: #f3a837;
   }
 

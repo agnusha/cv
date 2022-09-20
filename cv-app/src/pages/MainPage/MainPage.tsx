@@ -142,6 +142,29 @@ const MainPage: React.FC = () => {
           </div>
         </section>
 
+        <section className="content-section my-5">
+          <h2 className="h2-heading">Roles and Responsibilities</h2>
+          <div className="block-roles-blue block-bordered">
+            <h3>
+              Key developer on BCDT-API
+              <span className="grey-span">Feb-2021 - Till Now</span>
+            </h3>
+            <p>BSUIR Minsk College of Radio Engineering</p>
+          </div>
+          <div className="block-roles-blue block-bordered">
+            <h3>
+              Higher incomplete education (extramural)
+              <span className="grey-span">2019 - 2022</span>
+            </h3>
+            <p>
+              Belarusian State University of Informatics and Radioelectronics
+            </p>
+          </div>
+          <p>
+            <em>Specialty</em>: Information Technology Software
+          </p>
+        </section>
+
         {/* <section className="content-section my-5">
       <h2 className="h2-heading">Projects</h2>
       <div className="block-code-picture">
@@ -161,18 +184,17 @@ const MainPage: React.FC = () => {
             <div className="timeline-centered">
               <article className="timeline-entry">
                 <div className="timeline-entry-inner">
-                  <div className="timeline-icon color-1 m-auto">
+                  <div className="timeline-icon color-2">
                     <i className="material-icons custom-icon">
                       check_circle_outline
                     </i>
                   </div>
-
                   <div className="timeline-label">
                     <h3>
-                      QA Engineer
-                      <span className="grey-span">June 2018 - Nov 2018</span>
+                      Fullstack Developer
+                      <span className="grey-span">October 2020 - Till Now</span>
                     </h3>
-                    <p>Caspel LLC</p>
+                    <p>Epam Systems</p>
                   </div>
                 </div>
               </article>
@@ -204,17 +226,18 @@ const MainPage: React.FC = () => {
               </article>
               <article className="timeline-entry">
                 <div className="timeline-entry-inner">
-                  <div className="timeline-icon color-2">
+                  <div className="timeline-icon color-1 m-auto">
                     <i className="material-icons custom-icon">
                       check_circle_outline
                     </i>
                   </div>
+
                   <div className="timeline-label">
                     <h3>
-                      Fullstack Developer
-                      <span className="grey-span">October 2020 - Present</span>
+                      QA Engineer
+                      <span className="grey-span">June 2018 - Nov 2018</span>
                     </h3>
-                    <p>Epam Systems</p>
+                    <p>Caspel LLC</p>
                   </div>
                 </div>
               </article>
@@ -224,17 +247,17 @@ const MainPage: React.FC = () => {
 
         <section className="content-section my-5">
           <h2 className="h2-heading">Education</h2>
-          <div className="block-education-orange">
+          <div className="block-education-orange block-bordered">
             <h3>
               Secondary special education
               <span className="grey-span">2015 - 2019</span>
             </h3>
             <p>BSUIR Minsk College of Radio Engineering</p>
           </div>
-          <div className="block-education-orange">
+          <div className="block-education-orange block-bordered">
             <h3>
               Higher incomplete education (extramural)
-              <span className="grey-span">2019 - 2022</span>
+              <span className="grey-span">2019 - 2023</span>
             </h3>
             <p>
               Belarusian State University of Informatics and Radioelectronics
@@ -252,7 +275,7 @@ const MainPage: React.FC = () => {
             called “English Papa”. Also, while studying at college, I separately
             studied technical terms in English in the subject “Professional
             Vocabulary”. I have experience of communicating with the customer in
-            English
+            English.
           </p>
         </section>
       </main>
