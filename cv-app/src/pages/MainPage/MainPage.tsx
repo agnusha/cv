@@ -4,10 +4,10 @@ const MainPage: React.FC = () => {
   return (
     <div className="container-lg-markdown my-5">
       <section className="main-info container content-section my-5">
-        <div className="row">
+        <div className="row pt-3">
           <div className="container text-center">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <div className="d-flex align-items-center mb-3">
                   <img
                     alt="agnia"
@@ -29,13 +29,13 @@ const MainPage: React.FC = () => {
                   </a>
                   <br />
                   <b>English level</b>
-                  Upper-intermediate
+                  B2
                   <br />
                   <br />
                 </p>
               </div>
               <div className="col-md-8">
-                <div className="bordered p-2 mb-3">
+                <div className="p-2 mb-3">
                   <h2 className="h2-heading mb-1">Summary</h2>
                   <p>
                     I am a Fullstack (.NET + React) developer having 4+ years of
