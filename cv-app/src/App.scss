@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 $red-color: #ff2143;
+$grey-block: #f2f3f7;
+$blue: #0078d4;
+
 
 html,
 body,
@@ -57,8 +60,7 @@ h6 {
   position: sticky;
   top: 0;
   width: 100%;
-  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
-  background: $red-color;
+  background: $blue;
   border-bottom: 1px solid #fff;
   z-index: 20;
   .h2-heading {
@@ -127,7 +129,7 @@ h6 {
     }
     .main-info_img {
       content: url(./assets/photo.jpg);
-      max-width: 80%;
+      max-width: 50%;
       height: auto;
     }
   }
@@ -135,10 +137,7 @@ h6 {
   .content-section 
   {
     .bordered {
-      border: 2px solid $red-color;
-      -moz-box-shadow: 0 0 0 5px #f2f3f7;
-      -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-      box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+      border: 2px solid $blue;
     }
     &.skills-section>div>div{
       position: relative;
@@ -148,10 +147,8 @@ h6 {
   .services {
     height: 60%;
     margin: 4rem 2rem;
+    background-color: $grey-block;
     min-width: 250px;
-    -moz-box-shadow: 0 0 0 5px #f2f3f7;
-    -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-    box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
 
     .services-icons {
       position: absolute;
@@ -289,7 +286,7 @@ h6 {
       position: absolute;
       display: block;
       width: 4px;
-      background: #f2f3f7;
+      background: $grey-block;
       top: 20px;
       bottom: 20px;
       margin-left: 29px;
@@ -308,21 +305,18 @@ h6 {
           display: block;
           width: 40px;
           height: 40px;
-          background: #2c98f0;
+          background: $blue;
           -webkit-border-radius: 50%;
           -moz-border-radius: 50%;
           -ms-border-radius: 50%;
           border-radius: 50%;
           text-align: center;
-          -moz-box-shadow: 0 0 0 5px #f2f3f7;
-          -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-          box-shadow: 0 0 0 5px #f2f3f7;
           line-height: 40px;
           float: left;
         }
 
         .timeline-label {
-          background: #f2f3f7;
+          background: $grey-block;
           padding: 1.5em;
           margin-left: 60px;
           -webkit-background-clip: padding-box;
@@ -332,7 +326,7 @@ h6 {
 
         .custom-icon {
           line-height: inherit;
-          color: #f2f3f7;
+          color: $grey-block;
         }
       }
     }
@@ -348,11 +342,11 @@ h6 {
   }
 
   .block-roles-blue {
-    border-left-color: #2c98f0;
+    border-left-color: $blue;
   }
 
-  .block-education-orange {
-    border-left-color: #f3a837;
+  .block-education {
+    border-left-color: $blue;
   }
 
   .block-code-picture {
@@ -366,7 +360,6 @@ h6 {
       color: white;
       font-family: "Quicksand", Arial, sans-serif;
       font-weight: 700;
-      text-shadow: rgb(44, 44, 44) 0 0 20px;
       letter-spacing: 0.1em;
       text-align: center;
       text-transform: uppercase;

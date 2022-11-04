@@ -4,61 +4,62 @@ const MainPage: React.FC = () => {
   return (
     <div className="container-lg-markdown my-5">
       <section className="main-info container content-section my-5">
-        <div className="row">
-          <div className="col-md-3 d-flex align-items-center mb-3">
-            <img
-              alt="agnia"
-              className="rounded-pill d-flex m-auto main-info_img"
-            />
-          </div>
-          <div className="col-md-9 bordered p-2 mb-3">
-            <h2 className="h2-heading mb-1">Info</h2>
-            <p className="main-info_p">
-              <b>E-mail</b>
-              <a href="mailto:agniastar@outlook.com">agniastar@outlook.com</a>
-              <br />
-              <b>Phone</b>
-              <a href="tel:+48500711782">+48-500-711-782 </a>&nbsp;
-              <a href="tel:+375293194896">+375-29-319-48-96 </a> <br />
-              <b>Linkedin</b>
-              <a href="https://www.linkedin.com/in/agnia-starovoitava-392263169/">
-                Link
-              </a>
-              <br />
-              <b>English level</b>
-              Upper-intermediate
-              <br />
-              <br />
-            </p>
-
-            <h2 className="h2-heading mb-1">Summary</h2>
-            <p>
-              I am a Fullstack (.NET + React) developer having 3 years of
-              commercial development experience, detailed in my resume. This
-              experience includes API and website creation, database and cloud
-              (AWS/Azure) experience.
-            </p>
-            <p>
-              I am a .NET developer having 3+ years of commercial development
-              experience. This experience includes API and website creation,
-              database experience. Skilled in ASP.NET MVC, ASP.NET Core,
-              client-side web development with React, and AWS/Azure
-              technologies. Developed the Waiver and Admin UI portal, APIs,
-              Waiver's crawlers for BCD Travel, the Web data portal, Download
-              tool and CLI for John Hopkins Institute with Microsoft, automated
-              lease accounting system, CRM, web application for drawing up
-              requests for goods labeling services, online tobacco shop. Good
-              team player, who has high responsibility level. Can be
-              self-dependent, but also have experience of supervising others.
-              Very collaborative and innovative. Confident and patient worker
-              with a positive attitude Can work overtime to meet deadlines.
-              Eager to learn new skills and techniques to improve my efficiency
-              at the workplace.
-            </p>
-            <p>
-              Good team player, who has high responsibility level. Can be
-              self-dependent, but also have experience of supervising others.
-            </p>
+        <div className="row pt-3">
+          <div className="container text-center">
+            <div className="row">
+              <div className="col-md-3">
+                <div className="d-flex align-items-center mb-3">
+                  <img
+                    alt="agnia"
+                    className="rounded-pill d-flex m-auto main-info_img"
+                  />
+                </div>
+                <p className="main-info_p">
+                  <b>Email</b>
+                  <a href="mailto:agniastar@outlook.com">
+                    agniastar@outlook.com
+                  </a>
+                  <br />
+                  <b>Phone</b>
+                  <a href="tel:+48500711782">+48-500-711-782 </a>&nbsp;
+                  <a href="tel:+375293194896">+375-29-319-48-96 </a> <br />
+                  <b>Linkedin</b>
+                  <a href="https://www.linkedin.com/in/agnia-starovoitava-392263169/">
+                    Link
+                  </a>
+                  <br />
+                  <b>English level</b>
+                  B2
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <div className="col-md-8">
+                <div className="p-2 mb-3">
+                  <h2 className="h2-heading mb-1">Summary</h2>
+                  <p>
+                    I am a Fullstack (.NET + React) developer having 4+ years of
+                    commercial development experience, detailed in my resume.
+                    This experience includes API and website creation, database
+                    and cloud experience.
+                  </p>
+                  <p>
+                    Skilled in ASP.NET MVC, ASP.NET Core, client-side
+                    development with React, and AWS/Azure technologies.
+                    Developed UI Portals, APIs and Crawlers for BCD Travel, the
+                    Web data portal, Download tool and CLI for John Hopkins
+                    Institute with Microsoft, automated lease accounting system,
+                    CRM, etc.
+                  </p>
+                  <p>
+                    Collaborative and innovative. Eager to learn new skills and
+                    techniques to improve my efficiency at the workplace. Good
+                    team player, who has high responsibility level. Can be
+                    self-dependent, also have experience of supervising others.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -312,14 +313,14 @@ const MainPage: React.FC = () => {
 
         <section className="content-section my-5">
           <h2 className="h2-heading">Education</h2>
-          <div className="block-education-orange block-bordered">
+          <div className="block-education block-bordered">
             <h3>
               Secondary special education
               <span className="grey-span">2015 - 2019</span>
             </h3>
             <p>BSUIR Minsk College of Radio Engineering</p>
           </div>
-          <div className="block-education-orange block-bordered">
+          <div className="block-education block-bordered">
             <h3>
               Higher incomplete education (extramural)
               <span className="grey-span">2019 - 2023</span>
