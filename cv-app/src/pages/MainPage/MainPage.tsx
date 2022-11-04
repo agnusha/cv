@@ -315,14 +315,14 @@ const MainPage: React.FC = () => {
 
         <section className="content-section my-5">
           <h2 className="h2-heading">Education</h2>
-          <div className="block-education-orange block-bordered">
+          <div className="block-education block-bordered">
             <h3>
               Secondary special education
               <span className="grey-span">2015 - 2019</span>
             </h3>
             <p>BSUIR Minsk College of Radio Engineering</p>
           </div>
-          <div className="block-education-orange block-bordered">
+          <div className="block-education block-bordered">
             <h3>
               Higher incomplete education (extramural)
               <span className="grey-span">2019 - 2023</span>
