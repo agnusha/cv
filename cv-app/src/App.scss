@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 $red-color: #ff2143;
+$grey-block: #f2f3f7;
+
 
 html,
 body,
@@ -57,7 +59,6 @@ h6 {
   position: sticky;
   top: 0;
   width: 100%;
-  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
   background: $red-color;
   border-bottom: 1px solid #fff;
   z-index: 20;
@@ -136,9 +137,6 @@ h6 {
   {
     .bordered {
       border: 2px solid $red-color;
-      -moz-box-shadow: 0 0 0 5px #f2f3f7;
-      -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-      box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
     }
     &.skills-section>div>div{
       position: relative;
@@ -148,10 +146,8 @@ h6 {
   .services {
     height: 60%;
     margin: 4rem 2rem;
+    background-color: $grey-block;
     min-width: 250px;
-    -moz-box-shadow: 0 0 0 5px #f2f3f7;
-    -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-    box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
 
     .services-icons {
       position: absolute;
@@ -289,7 +285,7 @@ h6 {
       position: absolute;
       display: block;
       width: 4px;
-      background: #f2f3f7;
+      background: $grey-block;
       top: 20px;
       bottom: 20px;
       margin-left: 29px;
@@ -314,15 +310,12 @@ h6 {
           -ms-border-radius: 50%;
           border-radius: 50%;
           text-align: center;
-          -moz-box-shadow: 0 0 0 5px #f2f3f7;
-          -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-          box-shadow: 0 0 0 5px #f2f3f7;
           line-height: 40px;
           float: left;
         }
 
         .timeline-label {
-          background: #f2f3f7;
+          background: $grey-block;
           padding: 1.5em;
           margin-left: 60px;
           -webkit-background-clip: padding-box;
@@ -332,7 +325,7 @@ h6 {
 
         .custom-icon {
           line-height: inherit;
-          color: #f2f3f7;
+          color: $grey-block;
         }
       }
     }
@@ -366,7 +359,6 @@ h6 {
       color: white;
       font-family: "Quicksand", Arial, sans-serif;
       font-weight: 700;
-      text-shadow: rgb(44, 44, 44) 0 0 20px;
       letter-spacing: 0.1em;
       text-align: center;
       text-transform: uppercase;

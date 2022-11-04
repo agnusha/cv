@@ -33,31 +33,24 @@ const MainPage: React.FC = () => {
 
             <h2 className="h2-heading mb-1">Summary</h2>
             <p>
-              I am a Fullstack (.NET + React) developer having 3 years of
+              I am a Fullstack (.NET + React) developer having 4+ years of
               commercial development experience, detailed in my resume. This
               experience includes API and website creation, database and cloud
-              (AWS/Azure) experience.
+              experience.
             </p>
             <p>
-              I am a .NET developer having 3+ years of commercial development
-              experience. This experience includes API and website creation,
-              database experience. Skilled in ASP.NET MVC, ASP.NET Core,
-              client-side web development with React, and AWS/Azure
-              technologies. Developed the Waiver and Admin UI portal, APIs,
-              Waiver's crawlers for BCD Travel, the Web data portal, Download
-              tool and CLI for John Hopkins Institute with Microsoft, automated
-              lease accounting system, CRM, web application for drawing up
-              requests for goods labeling services, online tobacco shop. Good
-              team player, who has high responsibility level. Can be
-              self-dependent, but also have experience of supervising others.
-              Very collaborative and innovative. Confident and patient worker
-              with a positive attitude Can work overtime to meet deadlines.
-              Eager to learn new skills and techniques to improve my efficiency
-              at the workplace.
+              Skilled in ASP.NET MVC, ASP.NET Core, client-side development with
+              React, and AWS/Azure technologies. Developed UI Portals, APIs and
+              Crawlers for BCD Travel, the Web data portal, Download tool and
+              CLI for John Hopkins Institute with Microsoft, automated lease
+              accounting system, CRM, etc.
             </p>
             <p>
-              Good team player, who has high responsibility level. Can be
-              self-dependent, but also have experience of supervising others.
+              Collaborative and innovative. Confident and patient worker with a
+              positive attitude. Eager to learn new skills and techniques to
+              improve my efficiency at the workplace. Good team player, who has
+              high responsibility level. Can be self-dependent, but also have
+              experience of supervising others.
             </p>
           </div>
         </div>
