@@ -52,12 +52,10 @@ const MainPage: React.FC = () => {
                     CRM, etc.
                   </p>
                   <p>
-                    Collaborative and innovative. Confident and patient worker
-                    with a positive attitude. Eager to learn new skills and
+                    Collaborative and innovative. Eager to learn new skills and
                     techniques to improve my efficiency at the workplace. Good
                     team player, who has high responsibility level. Can be
-                    self-dependent, but also have experience of supervising
-                    others.
+                    self-dependent, also have experience of supervising others.
                   </p>
                 </div>
               </div>
