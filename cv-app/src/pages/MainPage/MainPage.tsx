@@ -38,13 +38,13 @@ const MainPage: React.FC = () => {
                 <div className="p-2 mb-3">
                   <h2 className="h2-heading mb-1">Summary</h2>
                   <p>
-                    I am a Fullstack (.NET + React) developer having 4+ years of
+                    I am a Fullstack (.NET + React) developer having 5+ years of
                     commercial development experience, detailed in my resume.
                     This experience includes API and website creation, database
                     and cloud experience.
                   </p>
                   <p>
-                    Skilled in ASP.NET MVC, ASP.NET Core, client-side
+                    Skilled in ASP.NET, client-side
                     development with React, and AWS/Azure technologies.
                     Developed UI Portals, APIs and Crawlers for BCD Travel, the
                     Web data portal, Download tool and CLI for John Hopkins
@@ -54,8 +54,7 @@ const MainPage: React.FC = () => {
                   <p>
                     Collaborative and innovative. Eager to learn new skills and
                     techniques to improve my efficiency at the workplace. Good
-                    team player, who has high responsibility level. Can be
-                    self-dependent, also have experience of supervising others.
+                    team player, who has high responsibility level.
                   </p>
                 </div>
               </div>
@@ -74,7 +73,7 @@ const MainPage: React.FC = () => {
                 </span>
                 <div className="services-desc">
                   <h3>Server side</h3>
-                  <p>ASP.NET MVC, ASP.NET. Core. EF6, EF Core.</p>
+                  <p>ASP.NET, Node.js.</p>
                 </div>
               </div>
             </div>
@@ -111,7 +110,7 @@ const MainPage: React.FC = () => {
                 <div className="services-desc">
                   <h3>Database</h3>
                   <p>
-                    MS SQL, MySQL, PostgreSQL, AWS DynamoDB, Azure TS, SQLite.
+                    MS SQL, MySQL, PostgreSQL, DynamoDB, SQLite.
                   </p>
                 </div>
               </div>
@@ -158,7 +157,7 @@ const MainPage: React.FC = () => {
               ingest and introduce API as a product.
             </div>
             <div>
-              <b>Technologies:</b> .NET Core, React, Typescript, AWSSDK and
+              <b>Technologies:</b> .NET Core, Node.js, React, Typescript, AWSSDK and
               other official Amazon libraries, xunit, jest, Moq, AutoFixture,
               StyleCop.Analyzers, Serilog.
             </div>
@@ -176,7 +175,7 @@ const MainPage: React.FC = () => {
                   <li>
                     React+TS applications for Admin UI portal and Waiver portal;
                   </li>
-                  <li>C# API for portals on AWS lambdas;</li>
+                  <li>C# and Node.js APIs on AWS lambdas;</li>
                   <li>
                     React+TS applications for Admin UI portal and Waiver portal;
                   </li>
