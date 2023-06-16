@@ -3,7 +3,7 @@ import React from "react";
 const MainPage: React.FC = () => {
   return (
     <div className="container-lg-markdown my-5">
-      <section className="main-info container content-section my-5">
+      <section className="main-info container content-section my-1">
         <div className="row pt-3">
           <div className="container text-center">
             <div className="row">
@@ -35,26 +35,15 @@ const MainPage: React.FC = () => {
                 </p>
               </div>
               <div className="col-md-8">
-                <div className="p-2 mb-3">
-                  <h2 className="h2-heading mb-1">Summary</h2>
+                <div className="p-2 mb-1">
+                  <h2 className="h2-heading my-3">Summary</h2>
+                    Results-driven Fullstack Developer with over 5 years of commercial development experience.
+                    Skilled in .NET, Node.js, React, and AWS/Azure technologies.
                   <p>
-                    I am a Fullstack (.NET + React) developer having 5+ years of
-                    commercial development experience, detailed in my resume.
-                    This experience includes API and website creation, database
-                    and cloud experience.
-                  </p>
-                  <p>
-                    Skilled in ASP.NET, client-side
-                    development with React, and AWS/Azure technologies.
-                    Developed UI Portals, APIs and Crawlers for BCD Travel, the
-                    Web data portal, Download tool and CLI for John Hopkins
-                    Institute with Microsoft, automated lease accounting system,
-                    CRM, etc.
-                  </p>
-                  <p>
-                    Collaborative and innovative. Eager to learn new skills and
-                    techniques to improve my efficiency at the workplace. Good
-                    team player, who has high responsibility level.
+                    Proven track record of creating robust APIs, dynamic websites, and leveraging cloud services.
+                    Experienced in collaborating with cross-functional teams to deliver innovative solutions.
+                    Continuously seeking opportunities to learn and enhance efficiency in the workplace.
+                    A responsible team player with a strong sense of accountability.
                   </p>
                 </div>
               </div>
@@ -63,7 +52,7 @@ const MainPage: React.FC = () => {
         </div>
       </section>
       <main>
-        <section className="content-section skills-section my-5">
+        <section className="content-section skills-section my-2">
           <h2 className="h2-heading">Skills</h2>
           <div className="row p-4 m-3 justify-content-around">
             <div className="col-md-6 col-lg-4 text-center">
@@ -142,7 +131,7 @@ const MainPage: React.FC = () => {
           </div>
         </section>
 
-        <section className="content-section my-5">
+        <section className="content-section my-2">
           <h2 className="h2-heading">Roles and Responsibilities</h2>
           <div className="block-roles-blue block-bordered">
             <h3>
@@ -211,10 +200,9 @@ const MainPage: React.FC = () => {
             <div>
               <b>Technologies:</b> .NET Core, React, Typescript, Azure Cognitive
               Search Azure App Service Azure Functions Azure B2C Azure Service
-              Bus Azure AppInsights .Net Core Blazor React JS Electron (this is
-              a chromium-embedded framework that allows you to run a desktop
-              application using Frontend approaches and principles) Highcharts
-              Material-UI library (UI components).
+              Bus Azure AppInsights .Net Core Blazor React JS Electron (a
+              chromium-embedded framework that allows you to run a desktop
+              application using Frontend approaches and principles).
             </div>
             <div>
               <b>Database:</b> Sqlite, Azure Storage Account.
@@ -243,7 +231,7 @@ const MainPage: React.FC = () => {
           </p>
         </section>
 
-        <section className="content-section my-5">
+        <section className="content-section my-2">
           <h2 className="h2-heading">Experience</h2>
           <div className="col-md-12">
             <div className="timeline-centered">
@@ -289,23 +277,6 @@ const MainPage: React.FC = () => {
                   </div>
                 </div>
               </article>
-              <article className="timeline-entry">
-                <div className="timeline-entry-inner">
-                  <div className="timeline-icon color-1 m-auto">
-                    <i className="material-icons custom-icon">
-                      check_circle_outline
-                    </i>
-                  </div>
-
-                  <div className="timeline-label">
-                    <h3>
-                      QA Engineer
-                      <span className="grey-span">June 2018 - Nov 2018</span>
-                    </h3>
-                    <p>Caspel LLC</p>
-                  </div>
-                </div>
-              </article>
             </div>
           </div>
         </section>
@@ -321,7 +292,7 @@ const MainPage: React.FC = () => {
           </div>
           <div className="block-education block-bordered">
             <h3>
-              Higher incomplete education (extramural)
+              Higher education
               <span className="grey-span">2019 - 2023</span>
             </h3>
             <p>
@@ -333,16 +304,6 @@ const MainPage: React.FC = () => {
           </p>
         </section>
 
-        <section className="content-section my-5">
-          <h2 className="h2-heading">English</h2>
-          <p>
-            My English level is upper-intermediate (B2). I finished courses
-            called “English Papa”. Also, while studying at college, I separately
-            studied technical terms in English in the subject “Professional
-            Vocabulary”. I have experience of communicating with the customer in
-            English.
-          </p>
-        </section>
       </main>
     </div>
   );
